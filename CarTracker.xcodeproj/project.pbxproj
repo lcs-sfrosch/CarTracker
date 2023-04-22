@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9960F9CC29F17532001E6018 /* CarTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9960F9CB29F17532001E6018 /* CarTrackerApp.swift */; };
-		9960F9CE29F17532001E6018 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9960F9CD29F17532001E6018 /* ContentView.swift */; };
+		9960F9CE29F17532001E6018 /* CarTrackerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9960F9CD29F17532001E6018 /* CarTrackerView.swift */; };
 		9960F9D029F17533001E6018 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9960F9CF29F17533001E6018 /* Assets.xcassets */; };
 		9960F9D329F17533001E6018 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9960F9D229F17533001E6018 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -16,7 +16,7 @@
 /* Begin PBXFileReference section */
 		9960F9C829F17532001E6018 /* CarTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9960F9CB29F17532001E6018 /* CarTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarTrackerApp.swift; sourceTree = "<group>"; };
-		9960F9CD29F17532001E6018 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9960F9CD29F17532001E6018 /* CarTrackerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarTrackerView.swift; sourceTree = "<group>"; };
 		9960F9CF29F17533001E6018 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9960F9D229F17533001E6018 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,7 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				9960F9CB29F17532001E6018 /* CarTrackerApp.swift */,
-				9960F9CD29F17532001E6018 /* ContentView.swift */,
+				9960F9CD29F17532001E6018 /* CarTrackerView.swift */,
 				9960F9CF29F17533001E6018 /* Assets.xcassets */,
 				9960F9D129F17533001E6018 /* Preview Content */,
 			);
@@ -137,7 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9960F9CE29F17532001E6018 /* ContentView.swift in Sources */,
+				9960F9CE29F17532001E6018 /* CarTrackerView.swift in Sources */,
 				9960F9CC29F17532001E6018 /* CarTrackerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

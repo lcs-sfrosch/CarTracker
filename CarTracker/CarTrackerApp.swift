@@ -11,7 +11,7 @@ import SwiftUI
 struct CarTrackerApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            CarTrackerView(searchText: .constant(""))
         }
     }
 }
